@@ -1,0 +1,27 @@
+/* Variables */
+:root{
+  --bg-color: #4d26e6;
+  --bg-color-2: #e26796; 
+  --bg-color-3: #5429f2;
+  --bg-color-4: #eea5bf;
+  --btn-bg-color: #e74c3c;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #b5b5b5;
+}
+
+/* Globall style */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+}
+.container{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
